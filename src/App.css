@@ -1,0 +1,342 @@
+.App {
+  text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*Navbar*/
+
+.navbar {
+  min-height: 60px;
+ 	background-color: #000;
+}
+
+.navbar-default {
+	margin-top: 0;
+	line-height: .75;
+	text-align: center;	
+	border: solid 2px #43cac7;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-nav>li>a {
+  font-size: 18px;
+  margin: 5px 20px 0 0;
+  padding: 20px;
+	text-shadow: 2px 2px 1px black;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: #009799;
+	color: white;
+}
+
+.nameText {
+	background: url("./img/logo2.png") no-repeat center;
+	background-size: auto 50px;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	padding-top: 5px;
+  margin-top: 9px;
+}
+
+.navbar-nav>li>a:hover {
+	color: #5e5e5e;
+}
+
+/*intro/Landing*/
+
+.jumbotron {
+	background: none;
+  padding-top: 0;
+}	
+
+.myLogo {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*Main Section Stylying*/
+
+.sectionStyle {
+	padding: 50px;
+	height:auto;
+	background-color:	#eafbfb;
+	border: solid 4px #43cac7;
+	margin-bottom: 100px;
+}
+
+/*about*/
+
+.about-links {
+	display: inline;	
+}
+
+.hobbies {
+	padding-top: 30px;
+}
+
+.linked-about {
+	height: 32px;
+}
+
+.git-about {
+	height: 32px;
+}
+
+/*Skills*/
+
+.skills > h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.ms ul {
+	list-style-image: url("./img/bullet.png");
+	padding-left: 20px;
+	display: inline-block;
+	text-align: justify;
+}
+
+.ms {
+	text-align: center;
+}
+
+.coding {
+  visibility: hidden;
+}
+
+.edu {
+	padding-bottom: 20px;
+}
+
+.udacity {
+  height: 45px;
+  width: auto;
+  margin: 20px;
+}
+
+.treehouse {
+	height: 45px;
+	width: auto;
+	margin: 20px;
+}
+
+.freecodecamp {
+  height: 45px;
+  width: auto;
+  margin: 20px;
+}
+
+.codecademy {
+	height: 90px;
+	width: auto;
+}
+
+.certificates {
+  font-size: 1.2em;
+	line-height: normal;
+	margin: 20px;
+}
+
+.certificates a {
+  color: #007d80;
+}
+
+/* Card */
+
+.card {
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: white;
+  border: 2px solid #007977;
+  box-shadow: inset 0 0 2px 1px #007977, inset 0 0 10px 2px #eafbfb;
+  max-width: 240px;
+  margin: 20px auto;
+  padding: 0;
+}
+
+.sphere, .git {
+  margin: 8px auto;
+  height: 32px;
+  display: block;
+}
+
+.card-text {
+  height: 68px;
+  padding: 0 20px;
+}
+
+.card-row {
+  padding: 0 15px;
+}
+
+.card-info {
+  width: 100%;
+  border-top: 1px solid #007977;
+}
+
+.link-div {
+  box-shadow: inset 0 0 3px 1px #007977;
+  border: 1px solid #006664;
+  background-color: #60d2d0;  
+}
+
+.btn-left {
+  border-bottom-left-radius: 4px;
+}
+.btn-right {
+  border-bottom-right-radius: 4px;
+}
+
+.card-img {
+  max-height: 100px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #007977;
+}
+
+
+/* Contact */
+
+#myPlanet{
+	height: 180px;
+	width: auto;
+	padding: 50px auto 50px auto;
+	margin: auto;
+}
+
+.contact {
+	background: url("./img/starBG.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 50px;
+	border: ridge 4px #43cac7;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.contactLinks {
+	text-align: center;
+	display: block;
+	margin: 30px;
+}
+
+.contact-email {
+	margin-top: 40px;
+}
+
+.melissaMail {
+  font-size: 20px;
+  color: #43cac7;
+}
+
+/*Footer*/
+
+footer {
+	border-top: solid 2px #43cac7;
+	margin-top: 15px;
+	padding: 10px 0 5px 0;
+	background-color: black;
+	word-wrap: normal;
+	height: auto;
+	color: white;
+  text-align: center;
+}
+
+/*Ids for nav*/
+
+#home {
+	padding-top: 165px;	
+}
+#about, #skills, #portfolio, #contact {
+	padding-top: 165px;
+}
+
+
+/*Media Queries*/
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+	.pic {
+    margin-bottom: 30px;
+    width: 200px;
+	}
+	.sectionStyle {
+		padding: 30px 30px 30px 30px;
+		margin-bottom: 30px;
+	}
+	a.navbar-brand {
+		margin: 5px 0 0 0;
+		padding: 0;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px){	
+	.navbar-collapse .collapse .in {
+		overflow: hidden;
+	}
+	.navbar-nav>li>a {
+    		font-size: 13px;
+    		height: 50%;
+	}
+	.contactLinks {
+		margin: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	#home, #about, #skills, #portfolio, #contact {
+		padding-top: 75px;
+	}
+	.jumbotron{
+		height: 400px;	
+	}
+	
+}
+
+@media (min-width: 480px) and (max-width: 787px) {
+	.ms {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.skills h3, h4 {
+		left: 25%;
+	}
+	body {
+		font-size: 1.25em;
+	}
+	.links {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.codecademy {
+		margin-top: 20px;
+		width: 90px;
+		height: auto;
+	}
+	
+  .melissaMail {
+    font-size: 14px;
+  }
+  .contact {
+    padding: 50px 10px 50px 10px;
+	}
+	.contact-email {
+		padding: 0 20px;
+	}
+
+}
+
