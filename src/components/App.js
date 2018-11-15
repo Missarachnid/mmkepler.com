@@ -6,7 +6,7 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import "../App.css";
-import logo from "../img/newestlogo2.png";
+import logo from "../img/Melissa_Kepler_Logo.png";
 
 class App extends Component {
   render() {

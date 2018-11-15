@@ -18,7 +18,7 @@ import git from "../img/GitHub-Mark-32px.png";
                 <h3>I&apos;m Melissa</h3><br />
                 <p>I have been using every cheap or free resource I can to learn to be a JavaScript developer since 2015. I can’t remember what “Learn how to code” website got me, but they got me. I love the idea of a career where you can grow through learning in ways that aren’t just traditional education.</p>
                 <br />
-                <p>I have finished the Front End tracks for Team Treehouse and Free Code Camp. I have been working on the Back End track at Free Code Camp, but they recently changed their requirements. This year I won a Grow with Google scholarship for Udacity’s Mobile Web Specialist Nanodegree. I will finish in October and will be prepared to take the Google Mobile Web Specialist certification exam.</p>
+                <p>I have finished the Front End tracks for Team Treehouse and Free Code Camp. I have been working on the Back End track at Free Code Camp, but they recently changed their requirements. This year I won a Grow with Google scholarship for Udacity’s Mobile Web Specialist Nanodegree and earned my Nanodegree.</p>
               </div>
               <br />
               <div>

@@ -30,7 +30,7 @@ import quote from "../img/app-img/quote.jpg";
               {/* Project 1 stock Market Chart*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={chart} className="img-responsive img-circle card-img" alt="A thumbnail of my stock market charting app"/>
+                    <img src={chart} className="img-responsive img-rounded card-img" alt="A thumbnail of my stock market charting app"/>
                     <div className="card-text">
                       <h4 className="text-center">Stock Market Chart App</h4> 
                     </div>
@@ -50,14 +50,14 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 2 Udacity Project 1*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={restaurant} className="img-responsive img-circle card-img" alt="A thumbnail from a restaurant review website"/>
+                    <img src={restaurant} className="img-responsive img-rounded card-img" alt="A thumbnail from a restaurant review website"/>
                     <div className="card-text">
-                      <h4 className="text-center">Udacity Project 1 Restaurant Review</h4> 
+                      <h4 className="text-center">Udacity Project Restaurant Review</h4> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
                         <div className="col-xs-12 link-div btn-left">
-                          <a href="https://github.com/Missarachnid/Udacity-project1" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
+                          <a href="https://github.com/Missarachnid/Udacity-project3" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
                         </div>
                       </div>
                     </div>
@@ -67,7 +67,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 3 URL Shortener*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={shortener} className="img-responsive img-circle card-img" alt="A screen shot of a url shortener app" />
+                    <img src={shortener} className="img-responsive img-rounded card-img" alt="A screen shot of a url shortener app" />
                     <div className="card-text">
                       <h4 className="text-center">URL Shortener Microservice</h4> 
                     </div>
@@ -87,7 +87,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 4  File Metadata Microservice*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={metadata} className="img-responsive img-circle card-img" alt="A screen shot of a file metadata app"/>
+                    <img src={metadata} className="img-responsive img-rounded card-img" alt="A screen shot of a file metadata app"/>
                     <div className="card-text">
                       <h4 className="text-center">File Metadata Microservice</h4> 
                     </div>
@@ -107,7 +107,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 5 Image Search Abstraction Layer*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={imageab} className="img-responsive img-circle card-img" alt="A screenshot an app that searches for images"/>
+                    <img src={imageab} className="img-responsive img-rounded card-img" alt="A screenshot an app that searches for images"/>
                     <div className="card-text">
                       <h4 className="text-center">Image Search Abstraction Layer</h4> 
                     </div>
@@ -127,7 +127,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 6 Request Header Parser*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={header} className="img-responsive img-circle card-img" alt="A screenshot of a header parser app"/>
+                    <img src={header} className="img-responsive img-rounded card-img" alt="A screenshot of a header parser app"/>
                     <div className="card-text">
                       <h4 className="text-center">Request Header Parser Microservice</h4> 
                     </div>
@@ -147,7 +147,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 7 Timestamp Microservice*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={timestamp} className="img-responsive img-circle card-img" alt="A screenshot of a timestamp microservice app"/>
+                    <img src={timestamp} className="img-responsive img-rounded card-img" alt="A screenshot of a timestamp microservice app"/>
                     <div className="card-text">
                       <h4 className="text-center">Timestamp Microservice</h4> 
                     </div>
@@ -167,7 +167,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 8 Tic Tac Toe Game*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={tic} className="img-responsive img-circle card-img" alt="A screenshot of a Tic Tac Toe app"/>
+                    <img src={tic} className="img-responsive img-rounded card-img" alt="A screenshot of a Tic Tac Toe app"/>
                     <div className="card-text">
                       <h4 className="text-center">Tic Tac Toe Game</h4> 
                     </div>
@@ -187,7 +187,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 9 Simon Game*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={simon} className="img-responsive img-circle card-img" alt="A screenshot of a Simon game app"/>
+                    <img src={simon} className="img-responsive img-rounded card-img" alt="A screenshot of a Simon game app"/>
                     <div className="card-text">
                       <h4 className="text-center">Simon Game</h4> 
                     </div>
@@ -207,7 +207,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 10 Pomodoro*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={pomo} className="img-responsive img-circle card-img" alt="A screenshot of a pomodoro app"/>
+                    <img src={pomo} className="img-responsive img-rounded card-img" alt="A screenshot of a pomodoro app"/>
                     <div className="card-text">
                       <h4 className="text-center">Pomodoro</h4> 
                     </div>
@@ -227,7 +227,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 11 Wikipedia Viewer*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={wiki} className="img-responsive img-circle card-img" alt="A screenshot of a wikipedia viewer"/>
+                    <img src={wiki} className="img-responsive img-rounded card-img" alt="A screenshot of a wikipedia viewer"/>
                     <div className="card-text">
                       <h4 className="text-center">Wikipedia Viewer</h4> 
                     </div>
@@ -247,7 +247,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 12 Weather App*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={weather} className="img-responsive img-circle card-img" alt="A weather app screenshot"/>
+                    <img src={weather} className="img-responsive img-rounded card-img" alt="A weather app screenshot"/>
                     <div className="card-text">
                       <h4 className="text-center">Weather Conditions App</h4> 
                     </div>
@@ -267,7 +267,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 13 Weather App Angular*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={weather} className="img-responsive img-circle card-img" alt="A weather app made with angular screenshot"/>
+                    <img src={weather} className="img-responsive img-rounded card-img" alt="A weather app made with angular screenshot"/>
                     <div className="card-text">
                       <h4 className="text-center">Weather Conditions App ( Angular )</h4> 
                     </div>
@@ -287,7 +287,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 14 Twitch Viewer*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={twitch} className="img-responsive img-circle card-img" alt="A twitch viewer app screenshot"/>
+                    <img src={twitch} className="img-responsive img-rounded card-img" alt="A twitch viewer app screenshot"/>
                     <div className="card-text">
                       <h4 className="text-center">Twitch Viewer</h4> 
                     </div>
@@ -307,7 +307,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 15 Calculator App*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={calc} className="img-responsive img-circle card-img" alt="A screenshot of a calculator app"/>
+                    <img src={calc} className="img-responsive img-rounded card-img" alt="A screenshot of a calculator app"/>
                     <div className="card-text">
                       <h4 className="text-center">Calculator</h4> 
                     </div>
@@ -327,7 +327,7 @@ import quote from "../img/app-img/quote.jpg";
                 {/* Project 16 Random Quote Machine*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={quote} className="img-responsive img-circle card-img" alt="A screenshot of a random quote app"/>
+                    <img src={quote} className="img-responsive img-rounded card-img" alt="A screenshot of a random quote app"/>
                     <div className="card-text">
                       <h4 className="text-center">Random Quote Machine</h4> 
                     </div>

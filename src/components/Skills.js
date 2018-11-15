@@ -19,11 +19,12 @@ import udacity from "../img/udacity.svg";
                   <ul>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>JavaScript</li>
+                    <li>JavaScript/ES6</li>
                     <li>React</li>
-                    <li>Node</li>
+                    <li>Node.js</li>
                     <li>Express</li>
                     <li>MongoDB</li>
+                    <li>Mongoose</li>
                   </ul>
                 </div>
               </div>
@@ -32,13 +33,14 @@ import udacity from "../img/udacity.svg";
                 <div className="ms">
                   <h3 className="coding">Coding</h3>
                   <ul>
-                    <li>JQuery</li>
                     <li>Angular 1.5</li>
-                    <li>Bootstrap</li>
-                    <li>WordPress</li>
+                    <li>Bootstrap 3/4</li>
+                    <li>Service Workers</li>
                     <li>Git/GitHub</li>
-                    <li>npm</li>
-                    <li>Grunt</li>
+                    <li>NPM</li>
+                    <li>Flexbox</li>
+                    <li>JQuery</li>
+                    <li>Gulp/Grunt</li>
                   </ul>
                 </div>
               </div>
@@ -66,7 +68,6 @@ import udacity from "../img/udacity.svg";
                     <li>SQL Queries</li>
                     <li>PHP</li>
                     <li>Python</li>
-                    <li>Flexbox</li>
                     <li>Webpack</li>
                     <li>Redux</li>
                   </ul>
@@ -80,12 +81,12 @@ import udacity from "../img/udacity.svg";
               <div className="links center-block text-center">
               <div className="col-sm-3 col-xs-6">
                 <div className="udacityDiv">
-                <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024" target="_blank" rel="noopener noreferrer"><img src={udacity} className="udacity" alt="Udacity logo." /></a>
+                <a href="https://profiles.udacity.com/p/10021141782" target="_blank" rel="noopener noreferrer"><img src={udacity} className="udacity" alt="Udacity logo." /></a>
                 </div>
               </div>
               <div className="col-sm-3 col-xs-6">
                 <div className="freeCodeCampDiv">
-                <a href="https://www.freecodecamp.com/missarachnid" target="_blank" rel="noopener noreferrer"><img src={fcc} className="freecodecamp" alt="Free Code Camp icon link." /></a>
+                <a href="https://www.freecodecamp.org/certification/missarachnid/legacy-front-end" target="_blank" rel="noopener noreferrer"><img src={fcc} className="freecodecamp" alt="Free Code Camp icon link." /></a>
                 </div>
               </div>
                 <div className="clearfix visible-xs"></div>
