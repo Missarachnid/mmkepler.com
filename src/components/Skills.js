@@ -24,7 +24,7 @@ import udacity from "../img/udacity.svg";
                     <li>Node.js</li>
                     <li>Express</li>
                     <li>MongoDB</li>
-                    <li>Mongoose</li>
+                    <li>Angular 1.5</li>
                   </ul>
                 </div>
               </div>
@@ -33,14 +33,14 @@ import udacity from "../img/udacity.svg";
                 <div className="ms">
                   <h3 className="coding">Coding</h3>
                   <ul>
-                    <li>Angular 1.5</li>
                     <li>Bootstrap 3/4</li>
-                    <li>Service Workers</li>
                     <li>Git/GitHub</li>
                     <li>NPM</li>
-                    <li>Flexbox</li>
                     <li>JQuery</li>
+                    <li>Flexbox</li>
                     <li>Gulp/Grunt</li>
+                    <li>PHP</li>
+                    <li>Heroku/AWS</li>
                   </ul>
                 </div>
               </div>
@@ -66,7 +66,6 @@ import udacity from "../img/udacity.svg";
                   <h3>Working Knowledge:</h3>
                   <ul>
                     <li>SQL Queries</li>
-                    <li>PHP</li>
                     <li>Python</li>
                     <li>Webpack</li>
                     <li>Redux</li>

@@ -1,7 +1,7 @@
 import React from "react";
 import github from "../img/GitHub-Mark-64px.png";
 import sphere from "../img/202-sphere.svg";
-
+import ait from "../img/AIT-Logo-PNG-Transparent.png";
 import chart from "../img/app-img/stock2.jpg";
 import calc from "../img/app-img/calc.jpg";
 import tic from "../img/app-img/tictactoe.jpg";
@@ -27,7 +27,24 @@ import quote from "../img/app-img/quote.jpg";
             <h2 className="text-center">Portfolio Projects</h2>
 
               <div className="row center-block">
-              {/* Project 1 stock Market Chart*/}
+              {/* Project 0 Atlantic Integrated Technologies*/}
+                <div className="col-md-4 col-sm-6 col-xs-12">
+                  <div className="card container">
+                    <img src={ait} className="img-responsive img-rounded card-img" alt="A thumbnail of my stock market charting app"/>
+                    <div className="card-text">
+                      <h4 className="text-center">aitatlanta.com</h4> 
+                    </div>
+                    <div className="row card-row">
+                      <div className="card-info">
+                        <div className="col-xs-12 link-div btn-right">
+                          <a href="http://aitatlanta.com/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Project 1 stock Market Chart*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
                     <img src={chart} className="img-responsive img-rounded card-img" alt="A thumbnail of my stock market charting app"/>
