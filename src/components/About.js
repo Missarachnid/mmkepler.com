@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from "../img/Me.png";
+import photo from "../img/mmkepler_pic.jpg";
 import linked from "../img/In-Black-34px-TM.png";
 import git from "../img/GitHub-Mark-32px.png";
 import behance from "../img/behance.svg";
