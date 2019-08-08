@@ -85,7 +85,7 @@ import udacity from "../img/udacity.svg";
               </div>
               <div className="col-sm-3 col-xs-6">
                 <div className="freeCodeCampDiv">
-                <a href="https://www.freecodecamp.org/certification/missarachnid/legacy-front-end" target="_blank" rel="noopener noreferrer"><img src={fcc} className="freecodecamp" alt="Free Code Camp icon link." /></a>
+                <a href="https://www.freecodecamp.org/missarachnid" target="_blank" rel="noopener noreferrer"><img src={fcc} className="freecodecamp" alt="Free Code Camp icon link." /></a>
                 </div>
               </div>
                 <div className="clearfix visible-xs"></div>

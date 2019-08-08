@@ -17,6 +17,8 @@ import twitch from "../img/app-img/twitch.jpg";
 import restaurant from "../img/app-img/restaurant.jpg";
 import weather from "../img/app-img/weather.jpg";
 import quote from "../img/app-img/quote.jpg";
+import georgia from "../img/app-img/georgia-corgi.svg";
+import openWeather from '../img/app-img/open-weather.png'
 
  const Portfolio = () => {
   return (
@@ -44,27 +46,47 @@ import quote from "../img/app-img/quote.jpg";
                   </div>
                 </div>
 
-                {/* Project 1 stock Market Chart*/}
+                {/* Project 1 Puplanta*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={chart} className="img-responsive img-rounded card-img" alt="A thumbnail of my stock market charting app"/>
+                    <img src={georgia} className="img-responsive img-rounded card-img" alt="An image of georgia with a heart over atlanta, with a corgi head to its left, an a corgi butt to its right" id="georgia"/>
                     <div className="card-text">
-                      <h4 className="text-center">Stock Market Chart App</h4> 
+                      <h4 className="text-center">Puplant.com</h4> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
-                        <div className="col-xs-6 link-div btn-left">
-                          <a href="https://github.com/Missarachnid/stock-chart" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
+                      <div className="col-xs-6 link-div btn-left">
+                          <a href="https://github.com/Missarachnid/puplanta2" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
                         </div>
                         <div className="col-xs-6 link-div btn-right">
-                          <a href="https://stock-.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
+                          <a href="https://puplanta.com" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                {/* Project 2 Udacity Project 1*/}
+                {/* Project 2 Weather App*/}
+                <div className="col-md-4 col-sm-6 col-xs-12">
+                  <div className="card container">
+                    <img src={openWeather} className="img-responsive img-rounded card-img" alt="An image showing the current weather details of a town in Georgia" />
+                    <div className="card-text">
+                      <h4 className="text-center">Weather App</h4> 
+                    </div>
+                    <div className="row card-row">
+                      <div className="card-info">
+                      <div className="col-xs-6 link-div btn-left">
+                          <a href="https://github.com/Missarachnid/open-weather" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
+                        </div>
+                        <div className="col-xs-6 link-div btn-right">
+                          <a href="https://warm-cliffs-12741.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Project 3 Udacity Project 1*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
                     <img src={restaurant} className="img-responsive img-rounded card-img" alt="A thumbnail from a restaurant review website"/>
@@ -81,7 +103,7 @@ import quote from "../img/app-img/quote.jpg";
                   </div>
                 </div>
 
-                {/* Project 3 URL Shortener*/}
+                {/* Project 4 URL Shortener*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
                     <img src={shortener} className="img-responsive img-rounded card-img" alt="A screen shot of a url shortener app" />
@@ -101,7 +123,7 @@ import quote from "../img/app-img/quote.jpg";
                   </div>
                 </div>
 
-                {/* Project 4  File Metadata Microservice*/}
+                {/* Project 5 File Metadata Microservice*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
                     <img src={metadata} className="img-responsive img-rounded card-img" alt="A screen shot of a file metadata app"/>
@@ -115,26 +137,6 @@ import quote from "../img/app-img/quote.jpg";
                         </div>
                         <div className="col-xs-6 link-div btn-right">
                           <a href="https://kepler.glitch.me/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Project 5 Image Search Abstraction Layer*/}
-                <div className="col-md-4 col-sm-6 col-xs-12">
-                  <div className="card container">
-                    <img src={imageab} className="img-responsive img-rounded card-img" alt="A screenshot an app that searches for images"/>
-                    <div className="card-text">
-                      <h4 className="text-center">Image Search Abstraction Layer</h4> 
-                    </div>
-                    <div className="row card-row">
-                      <div className="card-info">
-                        <div className="col-xs-6 link-div btn-left">
-                          <a href="https://github.com/Missarachnid/fcc-imageSearch" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
-                        </div>
-                        <div className="col-xs-6 link-div btn-right">
-                          <a href="https://corgi.glitch.me/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
                         </div>
                       </div>
                     </div>
@@ -261,47 +263,7 @@ import quote from "../img/app-img/quote.jpg";
                   </div>
                 </div>
 
-                {/* Project 12 Weather App*/}
-                <div className="col-md-4 col-sm-6 col-xs-12">
-                  <div className="card container">
-                    <img src={weather} className="img-responsive img-rounded card-img" alt="A weather app screenshot"/>
-                    <div className="card-text">
-                      <h4 className="text-center">Weather Conditions App</h4> 
-                    </div>
-                    <div className="row card-row">
-                      <div className="card-info">
-                        <div className="col-xs-6 link-div btn-left">
-                          <a href="https://github.com/Missarachnid/fcc-weather-app" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
-                        </div>
-                        <div className="col-xs-6 link-div btn-right">
-                          <a href="https://missarachnid.github.io/fcc-weather-app/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Project 13 Weather App Angular*/}
-                <div className="col-md-4 col-sm-6 col-xs-12">
-                  <div className="card container">
-                    <img src={weather} className="img-responsive img-rounded card-img" alt="A weather app made with angular screenshot"/>
-                    <div className="card-text">
-                      <h4 className="text-center">Weather Conditions App ( Angular )</h4> 
-                    </div>
-                    <div className="row card-row">
-                      <div className="card-info">
-                        <div className="col-xs-6 link-div btn-left">
-                          <a href="https://github.com/Missarachnid/fcc-weather-app-angular" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
-                        </div>
-                        <div className="col-xs-6 link-div btn-right">
-                          <a href="https://missarachnid.github.io/fcc-weather-app-angular/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Project 14 Twitch Viewer*/}
+                {/* Project 12 Twitch Viewer*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
                     <img src={twitch} className="img-responsive img-rounded card-img" alt="A twitch viewer app screenshot"/>
@@ -321,7 +283,7 @@ import quote from "../img/app-img/quote.jpg";
                   </div>
                 </div>
 
-                {/* Project 15 Calculator App*/}
+                {/* Project 13 Calculator App*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
                     <img src={calc} className="img-responsive img-rounded card-img" alt="A screenshot of a calculator app"/>
@@ -341,7 +303,7 @@ import quote from "../img/app-img/quote.jpg";
                   </div>
                 </div>
 
-                {/* Project 16 Random Quote Machine*/}
+                {/* Project 14 Random Quote Machine*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
                     <img src={quote} className="img-responsive img-rounded card-img" alt="A screenshot of a random quote app"/>
@@ -360,6 +322,7 @@ import quote from "../img/app-img/quote.jpg";
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>		
         </div>	

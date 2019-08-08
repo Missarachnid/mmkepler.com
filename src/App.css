@@ -168,6 +168,9 @@ a:hover {
 }
 
 /* Card */
+#georgia {
+  max-width: 82px;
+}
 
 .card {
   box-sizing: border-box;
