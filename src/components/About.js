@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from "../img/mmkepler_pic.jpg";
+import photo from "../img/mkepler_200.jpg";
 import linked from "../img/In-Black-34px-TM.png";
 import git from "../img/GitHub-Mark-32px.png";
 import behance from "../img/behance.svg";
@@ -25,7 +25,7 @@ import behance from "../img/behance.svg";
               </div>
               <br />
               <div>
-                <p>I love astronomy and astrophysics, and that might have something to do with my last name! I am a huge fan of Game of Thrones and Vikings. In my spare time I am into body building.  I am a member of Women Who Code and go to events and meetups in Atlanta whenever I can.</p><br />													
+                <p>I love astronomy and astrophysics, and that might have something to do with my last name! I am a huge fan of Game of Thrones and Vikings. In my spare time I am into body building.  I am a member of Women Who Code and co-host the Woodstock Northwest OTP meetups.</p><br />													
             </div>
             </div>
           </div>

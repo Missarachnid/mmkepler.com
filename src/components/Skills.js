@@ -20,7 +20,7 @@ import udacity from "../img/udacity.svg";
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript/ES6</li>
-                    <li>React</li>
+                    <li>React/Redux</li>
                     <li>Node.js</li>
                     <li>Express</li>
                     <li>MongoDB</li>
@@ -39,8 +39,8 @@ import udacity from "../img/udacity.svg";
                     <li>JQuery</li>
                     <li>Flexbox</li>
                     <li>Gulp/Grunt</li>
-                    <li>PHP</li>
                     <li>Heroku/AWS</li>
+                    <li>Progressive Web Apps</li>
                   </ul>
                 </div>
               </div>
@@ -65,10 +65,8 @@ import udacity from "../img/udacity.svg";
                 <div className="ms">
                   <h3>Working Knowledge:</h3>
                   <ul>
-                    <li>SQL Queries</li>
                     <li>Python</li>
-                    <li>Webpack</li>
-                    <li>Redux</li>
+                    <li>PHP</li>
                   </ul>
                 </div>
               </div>
@@ -80,7 +78,7 @@ import udacity from "../img/udacity.svg";
               <div className="links center-block text-center">
               <div className="col-sm-3 col-xs-6">
                 <div className="udacityDiv">
-                <a href="https://profiles.udacity.com/p/10021141782" target="_blank" rel="noopener noreferrer"><img src={udacity} className="udacity" alt="Udacity logo." /></a>
+                <a href="https://confirm.udacity.com/EDD6VHNS" target="_blank" rel="noopener noreferrer"><img src={udacity} className="udacity" alt="Udacity logo." /></a>
                 </div>
               </div>
               <div className="col-sm-3 col-xs-6">
