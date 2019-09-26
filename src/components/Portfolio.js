@@ -51,7 +51,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={georgia} className="img-responsive img-rounded card-img" alt="An image of georgia with a heart over atlanta, with a corgi head to its left, an a corgi butt to its right" id="georgia"/>
                     <div className="card-text">
-                      <h4 className="text-center">Puplant.com</h4> 
+                      <h4 className="text-center">Puplanta.com</h4> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -59,7 +59,7 @@ import openWeather from '../img/app-img/open-weather.png'
                           <a href="https://github.com/Missarachnid/puplanta2" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
                         </div>
                         <div className="col-xs-6 link-div btn-right">
-                          <a href="https://puplanta.com" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
+                          <a href="http://puplanta.com" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
                         </div>
                       </div>
                     </div>
