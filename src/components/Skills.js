@@ -17,14 +17,14 @@ import udacity from "../img/udacity.svg";
                 <div className="ms">
                   <h3>Coding</h3>
                   <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
+                    <li>HTML/CSS</li>
                     <li>JavaScript/ES6</li>
                     <li>React/Redux</li>
                     <li>Node.js</li>
                     <li>Express</li>
                     <li>MongoDB</li>
                     <li>Angular 1.5</li>
+                    <li>NPM</li>
                   </ul>
                 </div>
               </div>
@@ -35,9 +35,9 @@ import udacity from "../img/udacity.svg";
                   <ul>
                     <li>Bootstrap 3/4</li>
                     <li>Git/GitHub</li>
-                    <li>NPM</li>
+                    <li>Webpack/Babel</li>
                     <li>JQuery</li>
-                    <li>Flexbox</li>
+                    <li>Firebase DB/Auth</li>
                     <li>Gulp/Grunt</li>
                     <li>Heroku/AWS</li>
                     <li>Progressive Web Apps</li>
@@ -67,6 +67,8 @@ import udacity from "../img/udacity.svg";
                   <ul>
                     <li>Python</li>
                     <li>PHP</li>
+                    <li>Workbox</li>
+                    <li>Google Analytics</li>
                   </ul>
                 </div>
               </div>

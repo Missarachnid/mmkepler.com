@@ -2,20 +2,17 @@ import React from "react";
 import github from "../img/GitHub-Mark-64px.png";
 import sphere from "../img/202-sphere.svg";
 import ait from "../img/AIT-Logo-PNG-Transparent.png";
-import chart from "../img/app-img/stock2.jpg";
 import calc from "../img/app-img/calc.jpg";
 import tic from "../img/app-img/tictactoe.jpg";
 import shortener from "../img/app-img/shortener.jpg";
 import wiki from "../img/app-img/wiki.jpg";
 import header from "../img/app-img/header.jpg";
 import timestamp from "../img/app-img/timestamp.jpg";
-import imageab from "../img/app-img/image-ab.jpg";
 import simon from "../img/app-img/simon.jpg";
 import metadata from "../img/app-img/metadata.jpg";
 import pomo from "../img/app-img/pomo.jpg";
 import twitch from "../img/app-img/twitch.jpg";
 import restaurant from "../img/app-img/restaurant.jpg";
-import weather from "../img/app-img/weather.jpg";
 import quote from "../img/app-img/quote.jpg";
 import georgia from "../img/app-img/georgia-corgi.svg";
 import openWeather from '../img/app-img/open-weather.png'
@@ -49,7 +46,7 @@ import openWeather from '../img/app-img/open-weather.png'
                 {/* Project 1 Puplanta*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={georgia} className="img-responsive img-rounded card-img" alt="An image of georgia with a heart over atlanta, with a corgi head to its left, an a corgi butt to its right" id="georgia"/>
+                    <img src={georgia} className="img-responsive img-rounded card-img" alt="The state of georgia with a heart over atlanta, with a corgi head to its left, an a corgi butt to its right" id="georgia"/>
                     <div className="card-text">
                       <h4 className="text-center">Puplanta.com</h4> 
                     </div>
@@ -69,7 +66,7 @@ import openWeather from '../img/app-img/open-weather.png'
                 {/* Project 2 Weather App*/}
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <div className="card container">
-                    <img src={openWeather} className="img-responsive img-rounded card-img" alt="An image showing the current weather details of a town in Georgia" />
+                    <img src={openWeather} className="img-responsive img-rounded card-img" alt="An the current weather details of a town in Georgia" />
                     <div className="card-text">
                       <h4 className="text-center">Weather App</h4> 
                     </div>
