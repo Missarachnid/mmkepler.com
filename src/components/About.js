@@ -17,7 +17,7 @@ import behance from "../img/behance.svg";
             <div className="col-md-8">
               <div className="story">
                 <h3>I&apos;m Melissa</h3><br />
-                <p>I'm the owner of Melissa Kepler Web Design & Development. I create customized sites and logos for clients. </p>
+                <p>I'm was the owner of Melissa Kepler Web Design & Development. I am currently looking for a full time full stack React developer job remotely or in the Greater Denver area. </p>
                 <br />
                 <p>I have been using every cheap or free resource I can to learn to be a JavaScript developer since 2015. I can’t remember what “Learn how to code” website got me, but they got me. I love the idea of a career where you can grow through learning in ways that aren’t just traditional education.</p>
                 <br />
@@ -25,7 +25,7 @@ import behance from "../img/behance.svg";
               </div>
               <br />
               <div>
-                <p>I love astronomy and astrophysics, and that might have something to do with my last name! I am a huge fan of Game of Thrones and the Alien movies. I also love dinosaurs, and really wanted to be a paleontologist as a child.In my spare time I am into body building.  I am a member of Women Who Code and co-host the Woodstock Northwest OTP meetups.</p><br />													
+                <p>I love astronomy and astrophysics, and that might have something to do with my last name! I am a huge fan of Game of Thrones and the Alien movies.  I also love dinosaurs, and really wanted to be a paleontologist as a child.  In my spare time I am into body building.  I am a former member of Women Who Code and I was a co-host the Woodstock Northwest OTP meetups before I relocated to Denver.</p><br />													
             </div>
             </div>
           </div>
