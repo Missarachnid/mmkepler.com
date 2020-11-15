@@ -309,12 +309,10 @@ import openWeather from '../img/app-img/open-weather.png'
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
-                        <div className="col-xs-6 link-div btn-left">
+                        <div className="col-xs-12 link-div btn-left">
                           <a href="https://github.com/Missarachnid/fcc-random-quote" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
                         </div>
-                        <div className="col-xs-6 link-div btn-right">
-                          <a href="https://missarachnid.github.io/fcc-random-quote/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
