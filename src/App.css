@@ -246,12 +246,23 @@ a:hover {
 }
 
 .contact-email {
-	margin-top: 40px;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .melissaMail {
   font-size: 20px;
   color: #43cac7;
+}
+
+#contact-planet-text {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.email-form {
+  margin: 10px;
+  border: ridge 2px #43cac7;
 }
 
 /*Footer*/
