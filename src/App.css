@@ -282,6 +282,15 @@ footer {
   text-align: center;
 }
 
+footer p {
+  display: inline-block;
+}
+
+#twitter {
+  height: 24px;
+  margin: auto 40px;
+}
+
 /*Ids for nav*/
 
 #home {
