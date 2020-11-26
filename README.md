@@ -5,13 +5,13 @@ Missarachnid A.K.A. Melissa Kepler
 
 ###  Built With:
 *  HTML
-*  CSS
+*  CSS / Bootstrap 3.7
 *  JavaScript
-*  React
-*  Bootstrap 3.7
+*  React/Hooks
+*  Emailjs
+*  Cpanel for hosting
 
 ### Future Upgrades:
 *  Bootstrap 4 or Flexbox
-*  Add back the email form I removed
 *  New overall design
 

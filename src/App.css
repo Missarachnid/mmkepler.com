@@ -63,6 +63,7 @@ a:hover {
 .jumbotron {
 	background: none;
   padding-top: 0;
+  margin-top: 50px;
 }	
 
 .myLogo {
@@ -220,14 +221,13 @@ a:hover {
   border: 2px solid black;
 }
 
-
 /* Contact */
 
 #myPlanet{
 	height: 180px;
 	width: auto;
-	padding: 50px auto 50px auto;
-	margin: auto;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .contact {
@@ -239,20 +239,11 @@ a:hover {
 	color: white;
 }
 
-.contactLinks {
-	text-align: center;
-	display: block;
-	margin: 30px;
-}
-
-.contact-email {
-  margin-top: 40px;
+#form {
+  padding: 0 auto;
   text-align: center;
-}
-
-.melissaMail {
-  font-size: 20px;
-  color: #43cac7;
+  max-width: 340px;
+  margin: 30px  auto 0 auto;
 }
 
 #contact-planet-text {
@@ -261,8 +252,21 @@ a:hover {
 }
 
 .email-form {
-  margin: 10px;
+  margin: 2px;
   border: ridge 2px #43cac7;
+}
+
+#submit-button {
+  margin-top: 10px;
+  background-color: #43cac7;
+  border: inset 2px #009799;
+  color: white;
+}
+
+.after-submit {
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 60px;
 }
 
 /*Footer*/
@@ -287,9 +291,7 @@ footer {
 	padding-top: 50px;
 }
 
-
 /*Media Queries*/
-
 
 @media (min-width: 320px) and (max-width: 991px) {
 	.pic {
@@ -314,9 +316,6 @@ footer {
     		font-size: 13px;
     		height: 50%;
 	}
-	.contactLinks {
-		margin: 20px;
-	}
 }
 
 @media (max-width: 767px) {
@@ -324,16 +323,28 @@ footer {
 		padding-top: 75px;
 	}
 	.jumbotron{
-		height: 400px;	
+    height: 420px;	
+    margin: 50px auto 0 auto;
 	}
-	
+  .after-submit {
+    margin-top: 40px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 787px) {
 	.ms {
 		padding-left: 20px;
 		padding-right: 20px;
-	}
+  }
+  #form {
+    max-width: 340px;
+    margin:40px auto 0 auto;
+  }
+  .jumbotron {
+    margin: 50px auto 0 auto;
+    padding-bottom: 0;
+    max-height: 260px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -352,16 +363,17 @@ footer {
 		width: 90px;
 		height: auto;
 	}
-	
-  .melissaMail {
-    font-size: 14px;
-  }
   .contact {
     padding: 50px 10px 50px 10px;
 	}
-	.contact-email {
+	#contact-email {
 		padding: 0 20px;
-	}
+  }
+  .jumbotron {
+    margin: 50px auto 0 auto;
+    padding-bottom: 0;
+    max-height: 240px;
+  }
 
 }
 
