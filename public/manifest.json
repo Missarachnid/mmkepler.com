@@ -1,0 +1,21 @@
+{
+  "name": "Melissa Kepler",
+  "short_name": "mmkepler",
+  "lang": "en-US",
+  "orientation": "any",
+  "start_url": "/",
+  "background_color": "#43cac7",
+  "theme_color": "#009799",
+  "display": "standalone",
+  "description": "Website of Melissa Kepler",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512"
+    }
+  ]
+}

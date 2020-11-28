@@ -1,5 +1,6 @@
 import React from 'react';
 import photo from "../img/mkepler_200.jpg";
+import Self from "../img/self.jpg";
 import linked from "../img/In-Black-34px-TM.png";
 import git from "../img/GitHub-Mark-32px.png";
 import behance from "../img/behance.svg";
@@ -12,11 +13,11 @@ import behance from "../img/behance.svg";
         <div className="sectionStyle">
           <div className="row">
             <div className="col-md-4">
-              <img src={photo} className="img-responsive img-circle pic center-block" alt="Melissa Kepler." />		
+              <img src={Self} className="img-responsive img-circle pic center-block" alt="Melissa Kepler." />		
             </div>
             <div className="col-md-8">
               <div className="story">
-                <h3>I&apos;m Melissa</h3><br />
+                <h1>I&apos;m Melissa</h1><br />
                 <p>I'm was the owner of Melissa Kepler Web Design & Development. I am currently looking for a full time full stack React developer job remotely or in the Greater Denver area. </p>
                 <br />
                 <p>I have been using every cheap or free resource I can to learn to be a JavaScript developer since 2015. I can’t remember what “Learn how to code” website got me, but they got me. I love the idea of a career where you can grow through learning in ways that aren’t just traditional education.</p>

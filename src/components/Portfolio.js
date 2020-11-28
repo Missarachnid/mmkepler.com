@@ -2,20 +2,20 @@ import React from "react";
 import github from "../img/GitHub-Mark-64px.png";
 import sphere from "../img/202-sphere.svg";
 import ait from "../img/AIT-Logo-PNG-Transparent.png";
-import calc from "../img/app-img/calc.jpg";
-import tic from "../img/app-img/tictactoe.jpg";
-import shortener from "../img/app-img/shortener.jpg";
-import wiki from "../img/app-img/wiki.jpg";
-import header from "../img/app-img/header.jpg";
-import timestamp from "../img/app-img/timestamp.jpg";
-import simon from "../img/app-img/simon.jpg";
-import metadata from "../img/app-img/metadata.jpg";
-import pomo from "../img/app-img/pomo.jpg";
-import twitch from "../img/app-img/twitch.jpg";
-import restaurant from "../img/app-img/restaurant.jpg";
-import quote from "../img/app-img/quote.jpg";
-import georgia from "../img/app-img/georgia-corgi.svg";
-import openWeather from '../img/app-img/open-weather.png'
+import calc from "../img/calc.jpg";
+import tic from "../img/tictactoe.jpg";
+import shortener from "../img/shortener.jpg";
+import wiki from "../img/wiki.jpg";
+import header from "../img/header.jpg";
+import timestamp from "../img/timestamp.jpg";
+import simon from "../img/simon.jpg";
+import metadata from "../img/metadata.jpg";
+import pomo from "../img/pomo.jpg";
+import twitch from "../img/twitch.jpg";
+import restaurant from "../img/restaurant.jpg";
+import quote from "../img/quote.jpg";
+import georgia from "../img/georgia-corgi.svg";
+import openWeather from '../img/open-weather.png'
 
  const Portfolio = () => {
   return (
@@ -31,7 +31,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={ait} className="img-responsive img-rounded card-img" alt="A thumbnail of my stock market charting app"/>
                     <div className="card-text">
-                      <h4 className="text-center">aitatlanta.com</h4> 
+                      <p className="text-center">aitatlanta.com</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -48,7 +48,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={georgia} className="img-responsive img-rounded card-img" alt="The state of georgia with a heart over atlanta, with a corgi head to its left, an a corgi butt to its right" id="georgia"/>
                     <div className="card-text">
-                      <h4 className="text-center">Puplanta.com</h4> 
+                      <p className="text-center">Puplanta.com</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -68,7 +68,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={openWeather} className="img-responsive img-rounded card-img" alt="An the current weather details of a town in Georgia" />
                     <div className="card-text">
-                      <h4 className="text-center">Weather App</h4> 
+                      <p className="text-center">Weather App</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -88,7 +88,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={restaurant} className="img-responsive img-rounded card-img" alt="A thumbnail from a restaurant review website"/>
                     <div className="card-text">
-                      <h4 className="text-center">Udacity Project Restaurant Review</h4> 
+                      <p className="text-center">Udacity Project Restaurant Review</p>
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -105,7 +105,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={shortener} className="img-responsive img-rounded card-img" alt="A screen shot of a url shortener app" />
                     <div className="card-text">
-                      <h4 className="text-center">URL Shortener Microservice</h4> 
+                      <p className="text-center">URL Shortener Microservice</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -125,7 +125,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={metadata} className="img-responsive img-rounded card-img" alt="A screen shot of a file metadata app"/>
                     <div className="card-text">
-                      <h4 className="text-center">File Metadata Microservice</h4> 
+                      <p className="text-center">File Metadata Microservice</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -145,7 +145,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={header} className="img-responsive img-rounded card-img" alt="A screenshot of a header parser app"/>
                     <div className="card-text">
-                      <h4 className="text-center">Request Header Parser Microservice</h4> 
+                      <p className="text-center">Request Header Parser Microservice</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -165,7 +165,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={timestamp} className="img-responsive img-rounded card-img" alt="A screenshot of a timestamp microservice app"/>
                     <div className="card-text">
-                      <h4 className="text-center">Timestamp Microservice</h4> 
+                      <p className="text-center">Timestamp Microservice</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -185,7 +185,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={tic} className="img-responsive img-rounded card-img" alt="A screenshot of a Tic Tac Toe app"/>
                     <div className="card-text">
-                      <h4 className="text-center">Tic Tac Toe Game</h4> 
+                      <p className="text-center">Tic Tac Toe Game</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -205,7 +205,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={simon} className="img-responsive img-rounded card-img" alt="A screenshot of a Simon game app"/>
                     <div className="card-text">
-                      <h4 className="text-center">Simon Game</h4> 
+                      <p className="text-center">Simon Game</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -225,7 +225,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={pomo} className="img-responsive img-rounded card-img" alt="A screenshot of a pomodoro app"/>
                     <div className="card-text">
-                      <h4 className="text-center">Pomodoro</h4> 
+                      <p className="text-center">Pomodoro</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -245,7 +245,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={wiki} className="img-responsive img-rounded card-img" alt="A screenshot of a wikipedia viewer"/>
                     <div className="card-text">
-                      <h4 className="text-center">Wikipedia Viewer</h4> 
+                      <p className="text-center">Wikipedia Viewer</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -265,7 +265,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={twitch} className="img-responsive img-rounded card-img" alt="A twitch viewer app screenshot"/>
                     <div className="card-text">
-                      <h4 className="text-center">Twitch Viewer</h4> 
+                      <p className="text-center">Twitch Viewer</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -285,7 +285,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={calc} className="img-responsive img-rounded card-img" alt="A screenshot of a calculator app"/>
                     <div className="card-text">
-                      <h4 className="text-center">Calculator</h4> 
+                      <p className="text-center">Calculator</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
@@ -305,7 +305,7 @@ import openWeather from '../img/app-img/open-weather.png'
                   <div className="card container">
                     <img src={quote} className="img-responsive img-rounded card-img" alt="A screenshot of a random quote app"/>
                     <div className="card-text">
-                      <h4 className="text-center">Random Quote Machine</h4> 
+                      <p className="text-center">Random Quote Machine</p> 
                     </div>
                     <div className="row card-row">
                       <div className="card-info">
