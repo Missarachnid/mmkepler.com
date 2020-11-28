@@ -380,11 +380,7 @@ footer p {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.codecademy {
-		margin-top: 20px;
-		width: 90px;
-		height: auto;
-	}
+
   .contact {
     padding: 50px 10px 50px 10px;
 	}
@@ -396,3 +392,25 @@ footer p {
 
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .hacker {
+    height: 45px;
+    width: auto;
+    margin: 40px 20px 20px 20px;
+  }
+  
+  
+  .freecodecamp {
+    height: 45px;
+    width: auto;
+    margin: 40px 20px 20px 20px;
+  }
+  
+  .codecademy {
+    height: 45px;
+    width: auto;
+    margin: 40px 20px 20px 20px;
+  }
+  
+
+}
