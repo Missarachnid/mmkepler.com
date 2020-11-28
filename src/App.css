@@ -136,6 +136,12 @@ a:hover {
 	padding-bottom: 20px;
 }
 
+.hacker {
+  height: 45px;
+  width: auto;
+  margin: 20px;
+}
+
 .udacity {
   height: 45px;
   width: auto;
@@ -155,14 +161,20 @@ a:hover {
 }
 
 .codecademy {
-	height: 90px;
-	width: auto;
+	height: 45px;
+  width: auto;
+  margin: 20px;
 }
 
 .certificates {
   font-size: 1.2em;
 	line-height: normal;
 	margin: 20px;
+}
+
+.edu-links {
+  color: black;
+  font-size: 1.25em;
 }
 
 .certificates a {

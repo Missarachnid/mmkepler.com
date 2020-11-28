@@ -1,8 +1,8 @@
 import React from "react";
 import fcc from "../img/fcc_puckRoundedCorners600.png";
-import codecademy from "../img/logo_black2.svg";
+import codecademy from "../img/codecademy-icon_1.png";
 import tree from "../img/teamTreehouse.svg";
-import udacity from "../img/udacity.svg";
+import hackerRank from "../img/hackerrank.svg"
 
  const Skills = () => {
   return (
@@ -18,12 +18,12 @@ import udacity from "../img/udacity.svg";
                   <h3>Coding</h3>
                   <ul>
                     <li>HTML/CSS</li>
-                    <li>JavaScript/ES6</li>
-                    <li>React/Redux</li>
+                    <li>JavaScript/ES6+</li>
+                    <li>React/Hooks</li>
+                    <li>Redux</li>
                     <li>Node.js</li>
                     <li>Express</li>
                     <li>MongoDB</li>
-                    <li>Angular 1.5</li>
                     <li>NPM</li>
                   </ul>
                 </div>
@@ -69,6 +69,8 @@ import udacity from "../img/udacity.svg";
                     <li>PHP</li>
                     <li>Workbox</li>
                     <li>Google Analytics</li>
+                    <li>TypeScript</li>
+                    <li>Testing</li>
                   </ul>
                 </div>
               </div>
@@ -76,34 +78,20 @@ import udacity from "../img/udacity.svg";
             </div>
 
             <div className="row learningIcons text-center">
-              <h3 className="edu">Educational Links</h3>
-              <div className="links center-block text-center">
-              <div className="col-sm-3 col-xs-6">
-                <div className="udacityDiv">
-                <a href="https://confirm.udacity.com/EDD6VHNS" target="_blank" rel="noopener noreferrer"><img src={udacity} className="udacity" alt="Udacity logo." /></a>
-                </div>
-              </div>
-              <div className="col-sm-3 col-xs-6">
-                <div className="freeCodeCampDiv">
-                <a href="https://www.freecodecamp.org/missarachnid" target="_blank" rel="noopener noreferrer"><img src={fcc} className="freecodecamp" alt="Free Code Camp icon link." /></a>
-                </div>
-              </div>
-                <div className="clearfix visible-xs"></div>
-              <div className="col-sm-3 col-xs-6">
-                <div className="codecademyDiv">
-                <a href="https://www.codecademy.com/missarachnid" target="_blank" rel="noopener noreferrer"><img src={codecademy} className="codecademy" alt="Codecademy icon link." /></a>
-                </div>
-              </div>
-              <div className="col-sm-3 col-xs-6">
-                <div className="treehouseDiv">
-                <a href="https://teamtreehouse.com/melissakepler" target="_blank" rel="noopener noreferrer"><img src={tree} className="treehouse" alt="Team Treehouse icon link." /></a>
-              </div>
-              </div>
-              </div>
-            </div>
-            <div className="row learningIcons text-center">
               <h3 className="edu">Certificates and<br />Statements of Accomplishment</h3>
               <div className="links center-block text-center">
+                <div className="col-sm-6 col-xs-12">
+                  <div className="certificates">
+                    <a href="https://graduation.udacity.com/confirm/EDD6VHNS" target="_blank" rel="noopener noreferrer">Udacity Mobile Web<br />Specialist Nanodegree</a>
+                  </div>
+                </div>
+                <div className="col-sm-6 col-xs-12">
+                  <div className="certificates">
+                    <a href="https://courses.wesbos.com/account/certificate/5a9840d0a91cf7264a85e0f4" target="_blank" rel="noopener noreferrer">Wes Bos React for<br />Beginners Certificate</a>
+                  </div>
+                </div>
+            </div>
+            <div className="links center-block text-center">
                 <div className="col-sm-6 col-xs-12">
                   <div className="certificates">
                     <a href="https://www.freecodecamp.com/missarachnid/front-end-certification" target="_blank" rel="noopener noreferrer">Free Code Camp Front End<br />Development Certificate</a>
@@ -116,6 +104,49 @@ import udacity from "../img/udacity.svg";
                 </div>
             </div>
           </div>
+
+
+            <div className="row learningIcons text-center">
+              <h3 className="edu">Educational Links</h3>
+              <div className="links center-block text-center">
+              
+              <div className="col-sm-3 col-xs-6">
+                <div className="freeCodeCampDiv">
+                <p className="edu-links">FreeCodeCamp</p>
+                <a href="https://www.freecodecamp.org/missarachnid" target="_blank" rel="noopener noreferrer">
+                  <img src={fcc} className="freecodecamp" alt="Free Code Camp icon link." />
+                  </a>
+                </div>
+              </div>
+
+              <div className="col-sm-3 col-xs-6">
+                <div className="hackerRankDiv">
+                <a href="www.hackerrank.com/mmkeplery.com/EDD6VHNS" target="_blank" rel="noopener noreferrer">
+                  <p className="edu-links">HackerRank</p>
+                  <img src={hackerRank} className="hacker" alt="Hacker Rank logo." />
+                  </a>
+                </div>
+              </div>
+                <div className="clearfix visible-xs"></div>
+              <div className="col-sm-3 col-xs-6">
+                <div className="codecademyDiv">
+                <a href="https://www.codecademy.com/missarachnid" target="_blank" rel="noopener noreferrer">
+                  <p className="edu-links">Codecademy</p>
+                  <img src={codecademy} className="codecademy" alt="Codecademy icon link." />
+                  </a>
+                </div>
+              </div>
+              <div className="col-sm-3 col-xs-6">
+                <div className="treehouseDiv">
+                <p className="edu-links">Team Treehouse</p>
+                <a href="https://teamtreehouse.com/melissakepler" target="_blank" rel="noopener noreferrer">
+                  <img src={tree} className="treehouse" alt="Team Treehouse icon link." />
+                  </a>
+              </div>
+              </div>
+              </div>
+            </div>
+            
         </div>
       </div>	
     </div>
