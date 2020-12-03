@@ -121,7 +121,7 @@ import hackerRank from "../img/hackerrank.svg"
 
               <div className="col-sm-3 col-xs-6">
                 <div className="hackerRankDiv">
-                <a href="www.hackerrank.com/mmkeplery.com/EDD6VHNS" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.hackerrank.com/mmkepler" target="_blank" rel="noopener noreferrer">
                   <p className="edu-links">HackerRank</p>
                   <img src={hackerRank} className="hacker" alt="Hacker Rank logo." />
                   </a>
@@ -130,7 +130,7 @@ import hackerRank from "../img/hackerrank.svg"
                 <div className="clearfix visible-xs"></div>
               <div className="col-sm-3 col-xs-6">
                 <div className="codecademyDiv">
-                <a href="https://www.codecademy.com/missarachnid" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.codecademy.com/profiles/missarachnid" target="_blank" rel="noopener noreferrer">
                   <p className="edu-links">Codecademy</p>
                   <img src={codecademy} className="codecademy" alt="Codecademy icon link." />
                   </a>
