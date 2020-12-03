@@ -40,18 +40,17 @@ require("dotenv").config();
 
     let formInfo = {from_name: form.nameInput, from_email: form.emailInput, message: form.messageInput, reply_to: form.emailInput};
 
-      emailjs.send(
-        serviceId, templateId, formInfo, userId)
-        .then(() => {
-          setSuccess({show: true})
-          setShowForm({show: false});
-          setForm(InitialState);
-          })
-        .catch(err => {
-          setShowForm({show: false});
-          setFailure({show:true})
-        });
-    
+    emailjs.send(
+      serviceId, templateId, formInfo, userId)
+      .then(() => {
+        setSuccess({show: true})
+        setShowForm({show: false});
+        setForm(InitialState);
+        })
+      .catch(err => {
+        setShowForm({show: false});
+        setFailure({show:true})
+      });
   }
  
   return (

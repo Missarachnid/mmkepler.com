@@ -1,5 +1,4 @@
 import React from 'react';
-import photo from "../img/mkepler_200.jpg";
 import Self from "../img/self.jpg";
 import linked from "../img/In-Black-34px-TM.png";
 import git from "../img/GitHub-Mark-32px.png";
