@@ -15,7 +15,8 @@ import twitch from "../img/twitch.jpg";
 import restaurant from "../img/restaurant.jpg";
 import quote from "../img/quote.jpg";
 import georgia from "../img/georgia-corgi.svg";
-import openWeather from '../img/open-weather.png'
+import openWeather from '../img/open-weather.png';
+import zap from '../img/zap.jpg';
 
  const Portfolio = () => {
   return (
@@ -77,6 +78,26 @@ import openWeather from '../img/open-weather.png'
                         </div>
                         <div className="col-xs-6 link-div btn-right">
                           <a href="https://warm-cliffs-12741.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Zapier Zap to Google Sheets*/}
+                <div className="col-md-4 col-sm-6 col-xs-12">
+                  <div className="card container">
+                    <img src={zap} className="img-responsive img-rounded card-img" alt="An image of the form on a website for using Zapier Zaps to move data to a Google sheet" />
+                    <div className="card-text">
+                      <p className="text-center">Zapier Zap</p> 
+                    </div>
+                    <div className="row card-row">
+                      <div className="card-info">
+                      <div className="col-xs-6 link-div btn-left">
+                          <a href="https://github.com/Missarachnid/Email-to-GoogleSheets-Zap" target="_blank" rel="noopener noreferrer"><img src={github} className="git" alt="Logo for GitHub"/></a>
+                        </div>
+                        <div className="col-xs-6 link-div btn-right">
+                          <a href="https://brave-curie-83cf49.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={sphere} className="sphere" alt="Icon representing a webpage link"/></a>
                         </div>
                       </div>
                     </div>
