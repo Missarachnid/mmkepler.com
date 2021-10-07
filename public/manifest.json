@@ -1,13 +1,10 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "planetTitle.pgn",
-      "sizes": "16x16",
-      "type": "image/x-icon"
-    }
-  ],
+  "icons": {
+    "192": "icon-192.png",
+    "512": "icon-512.png"
+  },
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#009799",
